@@ -1,0 +1,28 @@
+{
+    "name": "puppeteer-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "pdf": "node pdf.js",
+        "beautify-bar": "node png.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "cz-conventional-changelog": "3.3.0",
+        "eslint": "^8.3.0",
+        "eslint-config-airbnb-base": "15.0.0",
+        "eslint-plugin-import": "2.25.3",
+        "nodemon": "2.0.15"
+    },
+    "config": {
+        "commitizen": {
+            "path": "./node_modules/cz-conventional-changelog"
+        }
+    },
+    "dependencies": {
+        "puppeteer": "^13.1.1"
+    }
+}
